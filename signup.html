@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <form>
+      <fieldset class="form-box">
+        <p id="head"><strong>SIGN UP</strong></p>
+        <div class="">
+          <img id="log" src="images/new.png" alt="">
+        </div><br>
+        <div class="space">
+          <label class="label" for="name">FULL NAME:</label>
+          <input class="input" type="text" name="" placeholder="YOUR FULL NAME" required>
+        </div><br>
+        <div class="space">
+          <label class="label" for="username" placeholder="USERNAME">USERNAME:</label>
+          <input class="input" type="text" placeholder="username" required>
+        </div><br>
+        <div class="space">
+          <label class="label" for="mail">EMAIL ADDRESS:</label>
+          <input class="input"  type="email" placeholder="email address" required>
+        </div><br><br>
+        <div class="space">
+          <label class="label" for="number" placeholder="mobile number">MOBILE NUMBER:</label>
+          <input class="input" type="tel" placeholder="mobile number" required>
+        </div><br>
+        <div class="space">
+          <label class="label" for="password">PASSWORD:</label>
+          <input class="input" type="password" placeholder="password" required>
+        </div><br>
+        <div class="space">
+          <label class="label" for="confirm password" placeholder="confirm password">CONFIRM PASSWORD:</label>
+          <input class="input" type="password" placeholder="confirm password" required>
+        </div><br>
+         <div class="space">
+          <label class="label" for="gender">GENDER:</label>
+          <select id="gender" class="input" required>
+            <option value=""></option>
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+            <option value="Rather not say">OTHER</option>
+          </select>
+        </div>
+        <div>
+          <label for="submit"></label>
+          <input id="submit" type="submit" >
+        </div>
+      </fieldset>
+    </form>
+    </div>
+</body>
+</html>

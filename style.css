@@ -3,13 +3,14 @@
     animation: 10s reverse infinite;
     border-radius: 2em;
     height: 70%;
-    width: 34%;
+    width: 63%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    box-shadow: 10cm grey;
-    background-color: #87C9CB;
+    box-shadow: 0 15px 40px rgb(237, 237, 137);
+    background-color: #fffDD0;
     align-items: center;
-    background: rgb(176,224,230);
-    background: linear-gradient(159deg, rgba(176,224,230,1) 0%, rgba(70,130,180,1) 100%);
+    
 }
 
 
@@ -40,10 +41,10 @@ form{
 body{
 
   margin: 0;
-  background-color: #01734B;
-background-color: #63d471;
-background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-
+  background: url(images/body.jpg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(30px);
 }
 
 .input{
@@ -51,7 +52,7 @@ background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
   border: 1px solid;
   box-sizing: border-box;
   height: 30px;
-  width: 50%;
+  width: 59%;
   font-style: sans-serif;
   width: 50%;
   font-size: medium;
@@ -80,8 +81,9 @@ margin-right: 10px;
 
 #links{
   display: flex;
-  gap: 130px;
+  gap: 120px;
   margin-left: 150px;
+  margin-right: 1cm;
 }
 
 #tosignup{
@@ -103,16 +105,32 @@ strong{
 
 
 .form-box{
-   text-align: center;
-    animation: 10s reverse infinite;
+   
     border-radius: 2em;
-    height: 93%;
-    width: 34%;
+    height: 96%;
+    width: 66%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    box-shadow: 10cm grey;
-    background-color: #87C9CB;
+    box-shadow: 0 15px 40px rgb(237, 237, 137);
+    background-color: #fffDD0;
     align-items: center;
-    background: rgb(176,224,230);
-    background: linear-gradient(159deg, rgba(176,224,230,1) 0%, rgba(70,130,180,1) 100%);
+    
 }
 
+#right{
+float: right;
+}
+
+#left{
+  float: left;
+  background: url(images/download.jpg);
+  width: 50%;
+  margin-left: 0%;
+  padding-left: 0%;
+  height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  border-bottom-left-radius: 2em;
+  border-top-left-radius: 2em;
+}

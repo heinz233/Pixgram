@@ -13,7 +13,6 @@
     
 }
 
-
 #submit{
 background-color: #4449f0;
 border: none;
@@ -59,7 +58,7 @@ body{
   font-size: medium;
   }
 
-  .space{
+.space{
     text-align: right;
     margin-right: 15%;
   }
@@ -103,7 +102,6 @@ strong{
   font-size: xx-large;
   font-weight: 900;
 }
-
 
 .form-box{
    

@@ -2,8 +2,8 @@
     text-align: center;
     animation: 10s reverse infinite;
     border-radius: 2em;
-    height: 70%;
-    width: 70vw;
+    height: 74%;
+    width: 70%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,7 +34,7 @@ form{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   height: 100vh;
   
 }
